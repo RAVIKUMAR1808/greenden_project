@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--tailwind css cdn link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+    <!--Responsive Navbar-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <a class="text-2xl font-medium" href="index.html">GREENDEN</a>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="h-6 w-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--product-->
+    <section class="text-center">
+        <h1 class="text-3xl text-center font-bold pt-10">Our Products</h1>
+        <input type="text" placeholder="Search for a products..."
+            class="content-center border border-black p-3 mt-5 m-1 " style="width:80%">
+    </section>
+    <!--Product-imges-->
+    <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5 text-center">
+        <div>
+            <img src="./image/best seller_4.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>Austin Pot</h1>
+            <p>20$</p>
+        </div>
+        <div>
+            <img src="./image/best seller_3.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>Moth orchids</h1>
+            <p>20$</p>
+        </div>
+        <div>
+            <img src="./image/best seller_2.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>Dracaena Pot</h1>
+            <p>20$</p>
+        </div>
+        <div>
+            <img src="./image/best seller_1.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>ZZ Pot</h1>
+            <p>20$</p>
+        </div>
+        <div>
+            <img src="./image/best seller_1.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>Austin Pot</h1>
+            <p>20$</p>
+        </div>
+        <div>
+            <img src="./image/best seller_2.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>Moth orchids</h1>
+            <p>20$</p>
+        </div>
+        <div>
+            <img src="./image/best seller_3.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>Dracaena Pot</h1>
+            <p>20$</p>
+        </div>
+        <div>
+            <img src="./image/best seller_4.png" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>ZZ Pot</h1>
+            <p>20$</p>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+    <section class="bg-green-100 p-10 flex flex-col gap-5 mt-5">
+        <h1 class="text-4xl font-bold">GREENDEN</h1>
+        <p>The standard chunk of Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corrupti,
+            consectetur ullam eius maiores at magna.</p>
+        <p>@ 2025 Greenden.com</p>
+
+    </section>
+</body>
